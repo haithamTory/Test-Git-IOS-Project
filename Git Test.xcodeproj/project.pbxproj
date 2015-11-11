@@ -21,6 +21,7 @@
 		6EC8F8FB1BF31E8200BE0D39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC8F8DD1BF31E8200BE0D39 /* UIKit.framework */; };
 		6EC8F9031BF31E8200BE0D39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EC8F9011BF31E8200BE0D39 /* InfoPlist.strings */; };
 		6EC8F9051BF31E8200BE0D39 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8F9041BF31E8200BE0D39 /* Git_TestTests.m */; };
+		6EC8F9101BF324AC00BE0D39 /* SomaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8F90F1BF324AC00BE0D39 /* SomaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6EC8F9001BF31E8200BE0D39 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6EC8F9021BF31E8200BE0D39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EC8F9041BF31E8200BE0D39 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6EC8F90E1BF324AC00BE0D39 /* SomaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomaViewController.h; sourceTree = "<group>"; };
+		6EC8F90F1BF324AC00BE0D39 /* SomaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6EC8F8EF1BF31E8200BE0D39 /* ViewController.m */,
 				6EC8F8F11BF31E8200BE0D39 /* Images.xcassets */,
 				6EC8F8E01BF31E8200BE0D39 /* Supporting Files */,
+				6EC8F90E1BF324AC00BE0D39 /* SomaViewController.h */,
+				6EC8F90F1BF324AC00BE0D39 /* SomaViewController.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				6EC8F8F01BF31E8200BE0D39 /* ViewController.m in Sources */,
 				6EC8F8EA1BF31E8200BE0D39 /* AppDelegate.m in Sources */,
+				6EC8F9101BF324AC00BE0D39 /* SomaViewController.m in Sources */,
 				6EC8F8E61BF31E8200BE0D39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
